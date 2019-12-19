@@ -1,0 +1,34 @@
+.monaco-workbench .tabs,
+.monaco-workbench .content {
+  background: transparent !important;
+}
+
+.monaco-workbench .tab[aria-selected="false"] {
+  background: transparent !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+  transition: background ease 200ms !important;
+}
+
+.monaco-workbench .tab[aria-selected="false"]:hover {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.095)
+  ) !important;
+}
+
+.monaco-workbench .tab[aria-selected="true"] {
+  /* background: linear-gradient(
+    rgba(12, 125, 157, 0),
+    rgba(12, 125, 157, 0.1)
+  ) !important; */
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.075)
+  ) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.monaco-workbench .tab,
+.monaco-workbench .tab * {
+  cursor: default !important;
+}

@@ -1,0 +1,29 @@
+.monaco-workbench .monaco-list-row {
+  background: transparent !important;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important; */
+  transition: background ease-in-out 50ms;
+}
+
+.monaco-workbench .monaco-list-row:hover {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  ) !important;
+}
+
+.monaco-workbench .monaco-list-row.selected {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  ) !important;
+}
+
+.monaco-workbench .monaco-list-row.selected:hover {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.175),
+    rgba(255, 255, 255, 0)
+  ) !important;
+}
