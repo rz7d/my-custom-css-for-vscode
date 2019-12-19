@@ -1,7 +1,7 @@
 @import url("color.css");
 @import url("noise.css");
 @import url("vscode-vibrancy-fix.css");
-@import url("activity-bar.css");
-@import url("tab-bar.css");
-@import url("menu-bar.css");
-@import url("status-bar.css");
+@import url("explorer.css");
+@import url("tabs.css");
+@import url("menu.css");
+@import url("status.css");
