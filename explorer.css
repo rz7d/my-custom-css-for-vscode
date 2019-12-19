@@ -1,17 +1,17 @@
 @import url("./color.css");
 
-.monaco-workbench .monaco-list-row {
+.monaco-workbench .explorer-folders-view .monaco-list-row {
   background: var(--highlight-rows-bg) !important;
 }
 
-.monaco-workbench .monaco-list-row:hover {
+.monaco-workbench .explorer-folders-view .monaco-list-row:hover {
   background: var(--highlight-rows-bg-hovered) !important;
 }
 
-.monaco-workbench .monaco-list-row.selected {
+.monaco-workbench .explorer-folders-view .monaco-list-row.selected {
   background: var(--highlight-rows-active-bg) !important;
 }
 
-.monaco-workbench .monaco-list-row.selected:hover {
+.monaco-workbench .explorer-folders-view .monaco-list-row.selected:hover {
   background: var(--highlight-rows-active-bg-hovered) !important;
 }
