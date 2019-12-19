@@ -1,34 +1,28 @@
+@import url("./color.css");
+
 .monaco-workbench .tabs,
 .monaco-workbench .content {
   background: transparent !important;
 }
-
-.monaco-workbench .tab[aria-selected="false"] {
-  background: transparent !important;
-  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+.monaco-workbench .tab {
+  border-right: 1px solid var(--separator-color) !important;
   transition: background ease 200ms !important;
 }
 
+/* inactive tab */
+.monaco-workbench .tab[aria-selected="false"] {
+  background: var(--highlight-columns-bg) !important;
+}
+
 .monaco-workbench .tab[aria-selected="false"]:hover {
-  background: linear-gradient(
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.095)
-  ) !important;
+  background: var(--highlight-columns-bg-hovered) !important;
 }
 
+/* selected tab */
 .monaco-workbench .tab[aria-selected="true"] {
-  /* background: linear-gradient(
-    rgba(12, 125, 157, 0),
-    rgba(12, 125, 157, 0.1)
-  ) !important; */
-  background: linear-gradient(
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.075)
-  ) !important;
-  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+  background: var(--highlight-columns-active-bg) !important;
 }
 
-.monaco-workbench .tab,
-.monaco-workbench .tab * {
-  cursor: default !important;
+.monaco-workbench .tab[aria-selected="true"]:hover {
+  background: var(--highlight-columns-active-bg-hovered) !important;
 }

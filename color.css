@@ -1,0 +1,58 @@
+:root {
+  --separator-color: rgba(255, 255, 255, 0.1);
+
+  /* highlight base */
+  --highlight-grad-base: rgba(255, 255, 255, 0);
+  --highlight-active-opacity: 0.075;
+  --highlight-hover-opacity: 0.095;
+}
+
+/* highlight for vertical aligned elements; for explorer (left to right) */
+:root {
+  --highlight-rows-bg: transparent;
+  --highlight-rows-bg-hovered: linear-gradient(
+    to right,
+    var(--highlight-grad-base),
+    rgba(255, 255, 255, var(--highlight-hover-opacity))
+  );
+  --highlight-rows-active-bg: linear-gradient(
+    to right,
+    var(--highlight-grad-base),
+    rgba(255, 255, 255, var(--highlight-active-opacity))
+  );
+  --highlight-rows-active-bg-hovered: linear-gradient(
+    to right,
+    var(--highlight-grad-base),
+    rgba(
+      255,
+      255,
+      255,
+      calc(var(--highlight-active-opacity) + var(--highlight-hover-opacity))
+    )
+  );
+}
+
+/* highlight for horizontal aligned elements; for tabs (top to bottom) */
+:root {
+  --highlight-columns-bg: transparent;
+  --highlight-columns-bg-hovered: linear-gradient(
+    to bottom,
+    var(--highlight-grad-base),
+    rgba(255, 255, 255, var(--highlight-hover-opacity))
+  );
+  --highlight-columns-active-bg: linear-gradient(
+    to bottom,
+    var(--highlight-grad-base),
+    rgba(255, 255, 255, var(--highlight-active-opacity))
+  );
+  --highlight-columns-active-bg-hovered: linear-gradient(
+    to bottom,
+    var(--highlight-grad-base),
+    rgba(
+      255,
+      255,
+      255,
+      calc(var(--highlight-active-opacity) + var(--highlight-hover-opacity))
+    )
+  );
+}
