@@ -2,7 +2,6 @@
 
 .monaco-workbench .monaco-list-row {
   background: var(--highlight-rows-bg) !important;
-  transition: background ease 200ms !important;
 }
 
 .monaco-workbench .monaco-list-row:hover {

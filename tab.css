@@ -7,7 +7,6 @@
 
 .monaco-workbench .tab {
   border-right: 1px solid var(--separator-color) !important;
-  transition: background ease 200ms !important;
 }
 
 /* inactive tab */
