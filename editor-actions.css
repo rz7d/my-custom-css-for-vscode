@@ -1,0 +1,9 @@
+@import url("./color.css");
+
+.editor-actions .actions-container .action-item {
+  transition: opacity ease 100ms;
+}
+
+.editor-actions .actions-container .action-item:hover {
+  opacity: 0.7;
+}
