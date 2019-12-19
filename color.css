@@ -4,7 +4,7 @@
   /* highlight base */
   --highlight-grad-base: rgba(255, 255, 255, 0);
   --highlight-active-opacity: 0.075;
-  --highlight-hover-opacity: 0.095;
+  --highlight-hover-opacity: 0.15;
 }
 
 /* highlight for vertical aligned elements; for explorer (right to left) */
