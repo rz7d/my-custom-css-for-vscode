@@ -1,0 +1,5 @@
+@import url("./color.css");
+
+.monaco-workbench .part.statusbar > .items-container > .statusbar-item a:hover {
+  background: var(--highlight-columns-bg-hovered) !important;
+}
