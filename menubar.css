@@ -1,19 +1,9 @@
-.monaco-workbench .monaco-menu .monaco-action-bar,
-.monaco-workbench .monaco-menu .action-menu-item {
-  background-color: transparent !important;
-  backdrop-filter: blur(20px);
-}
+@import url("./color.css");
 
-.monaco-workbench .monaco-submenu .monaco-action-bar,
-.monaco-workbench .monaco-submenu .action-menu-item {
-  /* TODO: resolution for strenge background */
-}
-
-.monaco-workbench .monaco-menu .action-menu-item:hover {
-  background-color: rgba(255, 255, 255, .20) !important;
-}
-
-.monaco-workbench .monaco-menu-container .monaco-scrollable-element {
-  box-shadow: rgb(0, 0, 0, .120) 0px 2px 4px !important;
-  /* background: rgba(0, 0, 0, .25) !important; */
+.monaco-workbench .menubar:not(.compact) > .menubar-menu-button.open,
+.monaco-workbench .menubar:not(.compact) > .menubar-menu-button:focus,
+.monaco-workbench
+  .menubar:not(:focus-within):not(.compact)
+  > .menubar-menu-button:hover {
+  background: var(--highlight-columns-bg-hovered) !important;
 }
