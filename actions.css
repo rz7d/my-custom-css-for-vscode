@@ -1,0 +1,11 @@
+@import url("./color.css");
+
+.title-actions .action-item:not(.disabled),
+.editor-actions .action-item:not(.disabled) {
+  transition: opacity ease 100ms;
+}
+
+.title-actions .action-item:not(.disabled):hover,
+.editor-actions .action-item:not(.disabled):hover {
+  opacity: 0.7;
+}
