@@ -1,0 +1,6 @@
+@import url("./color.css");
+
+.monaco-editor-hover {
+    background: var(--noise-texture) !important;
+    backdrop-filter: saturate(180%) blur(20px) !important;
+}
