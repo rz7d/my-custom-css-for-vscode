@@ -7,21 +7,21 @@
   --highlight-hover-opacity: 0.095;
 }
 
-/* highlight for vertical aligned elements; for explorer (left to right) */
+/* highlight for vertical aligned elements; for explorer (right to left) */
 :root {
   --highlight-rows-bg: transparent;
   --highlight-rows-bg-hovered: linear-gradient(
-    to right,
+    to left,
     var(--highlight-grad-base),
     rgba(255, 255, 255, var(--highlight-hover-opacity))
   );
   --highlight-rows-active-bg: linear-gradient(
-    to right,
+    to left,
     var(--highlight-grad-base),
     rgba(255, 255, 255, var(--highlight-active-opacity))
   );
   --highlight-rows-active-bg-hovered: linear-gradient(
-    to right,
+    to left,
     var(--highlight-grad-base),
     rgba(
       255,

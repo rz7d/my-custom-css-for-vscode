@@ -1,29 +1,18 @@
+@import url("./color.css");
+
 .monaco-workbench .monaco-list-row {
-  background: transparent !important;
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important; */
-  transition: background ease-in-out 50ms;
+  background: var(--highlight-rows-bg) !important;
+  transition: background ease 200ms !important;
 }
 
 .monaco-workbench .monaco-list-row:hover {
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.05),
-    rgba(255, 255, 255, 0)
-  ) !important;
+  background: var(--highlight-rows-bg-hovered) !important;
 }
 
 .monaco-workbench .monaco-list-row.selected {
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0)
-  ) !important;
+  background: var(--highlight-rows-active-bg) !important;
 }
 
 .monaco-workbench .monaco-list-row.selected:hover {
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.175),
-    rgba(255, 255, 255, 0)
-  ) !important;
+  background: var(--highlight-rows-active-bg-hovered) !important;
 }
