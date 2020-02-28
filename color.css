@@ -1,8 +1,6 @@
 :root {
   --separator-color: rgba(255, 255, 255, 0.1);
   --noise-texture: url("./noise.png");
-  --noise-texture: transparent;
-  /* --noise-texture: rgb(0, 0, 0, .25); */
 
   /* highlight base */
   --highlight-grad-base: rgba(255, 255, 255, 0);
