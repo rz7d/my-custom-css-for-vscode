@@ -2,12 +2,12 @@
 
 .monaco-editor-hover {
   background: rgba(37, 37, 38, 0.8) !important;
-  backdrop-filter: blur(20px) !important;
+  backdrop-filter: blur(12px) !important;
 }
 
 .editor-widget > * {
   background: rgba(37, 37, 38, 0.8) !important;
-  backdrop-filter: blur(20px) !important;
+  backdrop-filter: blur(12px) !important;
   box-shadow: rgb(20, 20, 20) 0px 2px 4px;
   color: rgb(230, 230, 230);
 }
