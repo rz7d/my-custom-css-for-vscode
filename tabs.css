@@ -31,6 +31,7 @@
   content: "";
   display: block;
   z-index: 1;
+  pointer-events: none;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -38,10 +39,6 @@
   height: 100%;
   border-bottom: rgb(69, 131, 203) solid 2px;
   box-sizing: border-box;
-}
-
-.monaco-workbench .tabs .tab .tab-close {
-  z-index: 2;
 }
 
 /* old effect */
