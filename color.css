@@ -11,15 +11,15 @@
 /* highlight for vertical aligned elements; for explorer (right to left) */
 :root {
   --highlight-rows-bg: transparent;
-  --highlight-rows-bg-hovered: rgba(255, 255, 255, 0.05);
-  --highlight-rows-active-bg: rgba(255, 255, 255, 0.1);
-  --highlight-rows-active-bg-hovered: rgba(255, 255, 255, 0.15);
+  --highlight-rows-bg-hovered: rgba(255, 255, 255, 0.2);
+  --highlight-rows-active-bg: rgba(255, 255, 255, 0.15);
+  --highlight-rows-active-bg-hovered: rgba(255, 255, 255, 0.2);
 }
 
 /* highlight for horizontal aligned elements; for tabs (top to bottom) */
 :root {
   --highlight-columns-bg: transparent;
-  --highlight-columns-bg-hovered: rgba(255, 255, 255, 0.05);
+  --highlight-columns-bg-hovered: rgba(255, 255, 255, 0.125);
   --highlight-columns-active-bg: rgba(255, 255, 255, 0.1);
   --highlight-columns-active-bg-hovered: rgba(255, 255, 255, 0.15);
 }
