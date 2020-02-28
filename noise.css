@@ -1,5 +1,5 @@
 @import url("./color.css");
 
 .monaco-workbench {
-  background: var(--noise-texture) !important;
+  background: var(--noise-texture) rgba(64, 64, 64, 0.5) !important;
 }

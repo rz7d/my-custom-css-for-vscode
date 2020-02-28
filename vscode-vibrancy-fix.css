@@ -1,5 +1,8 @@
+.monaco-workbench .titlebar,
+.monaco-workbench .activitybar,
 .monaco-workbench .statusbar,
-.monaco-workbench .monaco-menu-container,
+.monaco-workbench .sidebar,
+.monaco-workbench .content,
 .monaco-workbench .monaco-list-rows {
   background: transparent !important;
 }

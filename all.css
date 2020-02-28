@@ -1,10 +1,8 @@
+@import url("./vscode-vibrancy-fix.css");
 @import url("./color.css");
 @import url("./noise.css");
-@import url("./vscode-vibrancy-fix.css");
-@import url("./title.css");
 @import url("./explorer.css");
 @import url("./tabs.css");
 @import url("./menu.css");
-@import url("./status.css");
-@import url("./actions.css");
 @import url("./editor.css");
+@import url("./hover.css");

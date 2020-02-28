@@ -1,0 +1,27 @@
+.monaco-workbench .part:not(.activitybar):not(.titlebar) .action-item:not(.disabled) {
+  transition: opacity ease-out 100ms;
+}
+
+.monaco-workbench .part:not(.activitybar):not(.titlebar) .action-item:not(.disabled):hover {
+  opacity: 0.65;
+}
+
+.monaco-workbench .activitybar .action-item:not(.checked) > .action-label,
+.monaco-breadcrumbs .monaco-breadcrumb-item:hover:not(.focused):not(.selected) {
+  transition: color ease-out 100ms;
+}
+
+.monaco-workbench
+  .activitybar
+  .action-item:not(.checked):hover
+  > .action-label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.monaco-workbench .titlebar .window-icon,
+.monaco-workbench .menubar .menubar-menu-button,
+.monaco-workbench .statusbar .statusbar-item a,
+.monaco-workbench .tabs .tab,
+.monaco-workbench .monaco-list-row {
+  transition: background-color ease-out 100ms;
+}

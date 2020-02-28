@@ -1,13 +1,17 @@
 @import url("./color.css");
 
 .monaco-editor-hover {
-  background: var(--noise-texture) !important;
-  backdrop-filter: blur(20px) !important;
+  background: var(--noise-texture) rgba(64, 64, 64, 0.5) !important;
+  /* backdrop-filter: blur(20px) !important; */
+  /* backdrop-filter: opacity(60%) saturate(80%) blur(20px) !important; */
+  backdrop-filter: opacity(60%) blur(20px) !important;
 }
 
 .editor-widget > * {
   background: var(--noise-texture) rgba(64, 64, 64, 0.5) !important;
-  backdrop-filter: opacity(60%) saturate(80%) blur(20px) !important;
+  /* backdrop-filter: opacity(60%) saturate(80%) blur(20px) !important; */
+  backdrop-filter: opacity(60%) blur(20px) !important;
+  /* backdrop-filter: opacity(80%) blur(20px) !important; */
   box-shadow: rgb(20, 20, 20) 0px 2px 4px;
   color: rgb(230, 230, 230);
 }

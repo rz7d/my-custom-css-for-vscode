@@ -5,5 +5,13 @@
 .monaco-workbench
   .menubar:not(:focus-within):not(.compact)
   > .menubar-menu-button:hover {
-  background: var(--highlight-columns-bg-hovered) !important;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.monaco-workbench .menubar:not(.compact) > .menubar-menu-button.open,
+.monaco-workbench .menubar:not(.compact) > .menubar-menu-button:focus,
+.monaco-workbench
+  .menubar:not(:focus-within):not(.compact)
+  > .menubar-menu-button:active {
+  background-color: rgba(255, 255, 255, 0.2);
 }

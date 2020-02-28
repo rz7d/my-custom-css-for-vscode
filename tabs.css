@@ -1,7 +1,6 @@
 @import url("./color.css");
 
-.monaco-workbench .tabs,
-.monaco-workbench .content {
+.monaco-workbench .tabs {
   background: transparent !important;
 }
 
@@ -20,9 +19,46 @@
 
 /* selected tab */
 .monaco-workbench .tab[aria-selected="true"] {
+  background: var(--highlight-columns-bg) !important;
+}
+
+.monaco-workbench .tab[aria-selected="true"]:hover {
+  z-index: 0;
+  background: var(--highlight-columns-bg-hovered) !important;
+}
+
+.monaco-workbench .tab[aria-selected="true"]::after {
+  content: '';
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-bottom: rgb(69, 131, 203) solid 2px;
+  box-sizing: border-box;
+}
+
+.monaco-workbench .tabs .tab .tab-close {
+  z-index: 2;
+}
+
+/* old effect */
+/*
+.monaco-workbench .tab[aria-selected="true"] {
   background: var(--highlight-columns-active-bg) !important;
 }
 
 .monaco-workbench .tab[aria-selected="true"]:hover {
   background: var(--highlight-columns-active-bg-hovered) !important;
 }
+*/
+
+/* Small Tabs */
+/*
+.monaco-workbench .tabs-and-actions-container,
+.monaco-workbench .tabs-and-actions-container * {
+  height: 2em !important;
+}
+*/
