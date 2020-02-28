@@ -28,7 +28,7 @@
 }
 
 .monaco-workbench .tab[aria-selected="true"]::after {
-  content: '';
+  content: "";
   display: block;
   z-index: 1;
   position: absolute;

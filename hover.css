@@ -1,8 +1,12 @@
-.monaco-workbench .part:not(.activitybar):not(.titlebar) .action-item:not(.disabled) {
+.monaco-workbench
+  .part:not(.activitybar):not(.titlebar)
+  .action-item:not(.disabled) {
   transition: opacity ease-out 100ms;
 }
 
-.monaco-workbench .part:not(.activitybar):not(.titlebar) .action-item:not(.disabled):hover {
+.monaco-workbench
+  .part:not(.activitybar):not(.titlebar)
+  .action-item:not(.disabled):hover {
   opacity: 0.65;
 }
 
